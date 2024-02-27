@@ -1,0 +1,23 @@
+[project]
+name = "speculative_classifier"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Sven Hendrikx", email = "sven_hendrikx@hotmail.com"},
+]
+dependencies = [
+    "torch>=2.2.1",
+    "transformers>=4.38.1",
+    "rich>=13.7.0",
+    "accelerate>=0.27.2",
+    "bitsandbytes>=0.42.0",
+    "setuptools>=69.1.1",
+    "ipdb>=0.13.13",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
